@@ -5,12 +5,12 @@ on:
     inputs:
       version:
         description: 'version to buld'
-        required: true
-        default: ''
+        required: false
+        default: 'latest'
         type: string
       zip_url:
         description: 'url to zip of json'
-        required: true
+        required: false
         default: ''
         type: string
 
